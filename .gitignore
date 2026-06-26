@@ -113,11 +113,8 @@ env.bak/
 venv.bak/
 
 # Project-specific ML assets & downloads
-hamlet.txt
-model.h5
+# (tracked intentionally - model.h5 is under GitHub's 100MB limit)
 best_model.keras
-tokenizer.pickle
-config.json
 
 # IDE / Editor directories
 .vscode/
