@@ -93,7 +93,7 @@ def load_assets():
 # Main application logic
 def main():
     st.markdown('<div class="main-header">✍️ Shakespearean Next Word Predictor</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-header">"a lightweight LSTM language model trained on Shakespeare's Hamlet that predicts and generates text in its style" \'s Hamlet</div>', unsafe_allow_html=True)
+    st.markdown('<div class="sub-header">A lightweight LSTM language model trained on Shakespeare\'s Hamlet that predicts and generates text in its style</div>', unsafe_allow_html=True)
     
     model, tokenizer, config = load_assets()
     
